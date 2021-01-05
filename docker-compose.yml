@@ -1,0 +1,7 @@
+version: "2.4"
+services:
+        rachana:
+                image: custimg:v5
+                build: .
+                ports: 
+                      - "3434:80"
